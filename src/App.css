@@ -31,3 +31,32 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+.cv-list {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.cv-list li {
+    text-align: left;
+}
+
+.summary {
+  width: 50%;
+  margin: auto;
+}
+
+.contacts {
+  margin-bottom: 20px;
+}
+
+.photo{
+  width: 200px;
+  margin:50px;
+}
